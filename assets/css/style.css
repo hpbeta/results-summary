@@ -111,6 +111,9 @@ body {
     background-color:  hsl(234, 85%, 45%, 0.07);
     color: hsl(234, 85%, 45%);
 }
+.container .containt-right span{
+    font-weight: bold;
+}
 .container .containt-right .btn{
     background-color: hsl(224, 30%, 27%);
     padding: 17px;
