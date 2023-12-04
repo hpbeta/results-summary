@@ -1,0 +1,133 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: hsl(241, 100%, 89%);
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .card {
+    display: flex;
+    background-color: #fff;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 31px -18px rgba(66, 68, 90, 0.5);
+}
+
+.container .card .containt-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 50%;
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.container .card .containt-left .title {
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 20px;
+}
+
+.container .card .containt-left .results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: hsla(256, 72%, 46%, 1);
+}
+
+.container .card .containt-left .results .results-number {
+    font-size: 45px;
+    margin-bottom: -7px;
+}
+
+.container .card .containt-left .results .of {
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+}
+
+.container .card .containt-left .great {
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.container .card .containt-left .great-description {
+    text-align: center;
+    font-size: 14px;
+    width: 200px;
+    color: hsl(241, 100%, 89%);
+}
+.container .containt-right{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+}
+.container .containt-right .title-right{
+    color:hsl(224, 30%, 27%);
+    margin-bottom: 20px;
+}
+.container .containt-right .test-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 14px;
+    border-radius: 10px;
+    
+    
+}
+.container .containt-right .test-info img{
+    margin: -4px;
+    margin-right: 10px;    
+}
+.container .containt-right .test-info:nth-of-type(1){
+    background-color: hsl(0, 100%, 67%, 0.07) ;
+    color:  hsl(0, 100%, 67%);
+    
+}
+.container .containt-right .test-info:nth-of-type(2){
+    background-color:hsl(39, 100%, 56%, 0.07);
+    color: hsl(39, 100%, 56%);
+
+}
+
+.container .containt-right .test-info:nth-of-type(3){
+    background-color: hsl(166, 100%, 37%, 0.07);
+    color: hsl(166, 100%, 37%);
+
+}
+
+.container .containt-right .test-info:nth-of-type(4){
+    background-color:  hsl(234, 85%, 45%, 0.07);
+    color: hsl(234, 85%, 45%);
+}
+.container .containt-right .btn{
+    background-color: hsl(224, 30%, 27%);
+    padding: 17px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;    
+    transition: 0.3s;
+}
+.container .containt-right .btn:hover{
+    background-color:  hsl(241, 81%, 54%);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

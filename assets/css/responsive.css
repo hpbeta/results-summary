@@ -1,0 +1,34 @@
+@media(max-width:376px){
+  
+    .container .card .containt-left{
+       
+       height: 280px;
+    }
+    .container .card .containt-right{
+        height: 400px;
+    }
+
+}
+@media(max-width:425px){
+    body{
+        height: auto;
+        width: auto;
+        padding: 0 10px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container .card .containt-left{
+        width: 100%;
+        
+    }
+}
+.container .card .containt-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    
+}
